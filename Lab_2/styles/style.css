@@ -10,17 +10,11 @@
     font-family: inherit;
 }
 
-.C{
-    font-size: 14;
-    font-family: inherit;
-}
-.D{
-    list-style-type: none;
-}
+
 .container{
     margin: auto;
      width: 60%;
      border: none;
      padding: 20px;
-     font-weight: 55000;
+     font-weight: 500;
 }
