@@ -1,0 +1,26 @@
+.PreA{
+    text-align: right;
+    font-style: italic;
+    font-size: 18;
+    font-family: initial;
+}
+.PreB{
+    font-style: italic;
+    font-size: 18;
+    font-family: inherit;
+}
+
+.C{
+    font-size: 14;
+    font-family: inherit;
+}
+.D{
+    list-style-type: none;
+}
+.container{
+    margin: auto;
+     width: 60%;
+     border: none;
+     padding: 20px;
+     font-weight: 55000;
+}
