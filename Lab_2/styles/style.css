@@ -1,20 +1,23 @@
-.PreA{
+.sender-column{
     text-align: right;
-    font-style: italic;
-    font-size: 18;
-    font-family: initial;
 }
-.PreB{
-    font-style: italic;
-    font-size: 18;
-    font-family: inherit;
-}
+body {
+    max-width: 800px;
+    margin: 0 auto;
+  }
 
+  h1 {
+    font-size: 1.5em;
+  }
 
-.container{
-    margin: auto;
-     width: 60%;
-     border: none;
-     padding: 20px;
-     font-weight: 500;
-}
+  h2 {
+    font-size: 1.3em;
+  }
+
+  p,ul,ol,dl,address {
+    font-size: 1.1em;
+  }
+
+  p, li, dd, dt, address {
+    line-height: 1.5;
+  }
