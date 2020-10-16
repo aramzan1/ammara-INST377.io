@@ -6,6 +6,14 @@ var x = document.getElementsByClassName("header"), i;
         }
 // 2 Insert two paragraphs into the div with the class "content"
 
+    var p = document.createElement("p");
+    p.className = p_class_name;
+    var node = document.createTextNode(p_value);
+    p.appendChild(node);
+    var element = document.getElementsByClassName("content")[0];
+    console.log(element);
+    element.appendChild(p);
+
 //  Label each paragraph with a distinct class name
 
 // 3 Into the first paragraph, insert the phrase "my name has " length of your name " characters"
@@ -22,6 +30,7 @@ var x = document.getElementsByClassName("header"), i;
 // 9 Add the total length of your first and last names together
 
 // 10 Display that total next to your name in your header
+
 
 
 
